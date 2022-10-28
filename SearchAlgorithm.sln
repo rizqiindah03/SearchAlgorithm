@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchAlgorithm", "SearchAlgorithm\SearchAlgorithm.csproj", "{032A0963-3D77-43AD-A7B8-C21709ECCA4E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{032A0963-3D77-43AD-A7B8-C21709ECCA4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{032A0963-3D77-43AD-A7B8-C21709ECCA4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{032A0963-3D77-43AD-A7B8-C21709ECCA4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{032A0963-3D77-43AD-A7B8-C21709ECCA4E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {051C407E-6399-45F4-850C-9D3E3EEE2029}
+	EndGlobalSection
+EndGlobal
