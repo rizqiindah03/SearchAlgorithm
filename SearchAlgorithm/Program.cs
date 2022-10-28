@@ -35,7 +35,7 @@ namespace SearchAlgorithm
             Console.WriteLine("-----------------------");
             for (i = 0; i<n; i++)
             {
-                Console.Write("<" + (i + i) + ">");
+                Console.Write("<" + (i + 1) + ">");
                 string s1 = Console.ReadLine();
                 arr[1] = Int32.Parse(s1);
             }
@@ -107,6 +107,45 @@ namespace SearchAlgorithm
                 ch = char.Parse(Console.ReadLine());
             } while ((ch == 'y') || (ch == 'Y'));
         }
+        static void Main(string[] args)
+        {
+            Program myList = new Program();
+            int pilihanmenu;
+            char ch;
+
+            Console.WriteLine("  Menu Option  ");
+            Console.WriteLine("===============");
+            Console.WriteLine("1.Linear Search");
+            Console.WriteLine("2.Binary Search");
+            Console.WriteLine("3.Exit");
+            Console.WriteLine("Enter your choice (1,2,3) : ");
+            pilihanmenu = Convert.ToInt32(Console.ReadLine());
+            switch (pilihanmenu)
+            {
+                case 1:
+                    Console.WriteLine("");
+                    Console.WriteLine("-----------------------");
+                    Console.WriteLine("linear search");
+                    Console.WriteLine("-----------------------");
+                    myList.input();
+                    myList.LinearSearch();
+                    break;
+                case 2:
+                    Console.WriteLine("");
+                    Console.WriteLine("-----------------------");
+                    Console.WriteLine(" Binary search");
+                    Console.WriteLine("-----------------------");
+                    myList.input();
+                    myList.BinarySearch();
+                    break;
+                case 3:
+                    Console.WriteLine("exit");
+                    break;
+                default:
+                    Console.WriteLine("error");
+                    break;
+            }
         }
-    }
+     }
+}
 
